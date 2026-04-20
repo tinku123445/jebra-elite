@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jabra Elite 75t</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #ff3c00, #ff6a00);
+    color:white;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 60px;
+    background:white;
+    color:black;
+}
+
+nav h2{
+    color:#ff3c00;
+}
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+}
+
+/* Hero */
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:80px 60px;
+}
+
+.hero-text{
+    max-width:500px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    margin-bottom:30px;
+    line-height:1.6;
+	colour:#111;
+}
+
+.btn{
+    padding:12px 30px;
+    border-radius:30px;
+    background:white;
+    color:#ff3c00;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* Image */
+.hero img{
+    width:350px;
+    border-radius:20px;
+}
+
+/* Features */
+.features{
+    background:white;
+    color:black;
+    padding:60px;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.card{
+    background:#fff5f0;
+    padding:30px;
+    border-radius:15px;
+    width:250px;
+    text-align:center;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Jabra</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="details.html">Details</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+    <div class="hero-text">
+        <h1> Jebra Elite 75t</h1>
+        <p>
+            Compact true wireless earbuds with powerful sound,
+            strong battery life, and customizable features.
+        </p>
+
+        <a href="details.html" class="btn">Learn More</a>
+    </div>
+
+    <!-- FIXED image name (no spaces) -->
+    <img src="https://assets2.jabra.com/6/b/f/6/6bf69e6dc6a6987c72e363e09b9c29eb211d2f1b_elite75t_titanium_03.png?w=400&h=400&auto=format" alt="Jabra Elite 75t" style="max-width: 100%; height: auto;">
+
+
+</section>
+
+<section class="features">
+
+    <div class="card">
+        <h3>28 Hr Battery</h3>
+        <p>Up to 28 hours with charging case.</p>
+    </div>
+
+    <div class="card">
+        <h3>ANC Support</h3>
+        <p>Reduces background noise for better focus.</p>
+    </div>
+
+    <div class="card">
+        <h3>Sound+ App</h3>
+        <p>Customize sound and controls easily.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Jabra Elite 75t</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Details - Jabra Elite 75t</title>
+
+<style>
+body{
+    font-family: Arial;
+    margin:0;
+    background:#fff5f0;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 60px;
+    background:#ff3c00;
+    color:white;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+/* Content */
+.container{
+    padding:60px;
+}
+
+h1{
+    color:#ff3c00;
+    margin-bottom:20px;
+}
+
+.section{
+    margin-bottom:30px;
+}
+
+.section h3{
+    margin-bottom:10px;
+    color:#333;
+}
+
+.section p{
+    color:#555;
+}
+
+/* App link */
+.app-link{
+    display:inline-block;
+    margin-top:10px;
+    color:white;
+    background:#ff3c00;
+    padding:10px 20px;
+    border-radius:20px;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Jabra</h2>
+    <a href="index.html">Back</a>
+</nav>
+
+<div class="container">
+
+<h1>Elite 75t Details</h1>
+
+<div class="section">
+    <h3>Battery</h3>
+    <p>Up to 7.5 hours per charge and 28 hours with the case.</p>
+</div>
+
+<div class="section">
+    <h3>Active Noise Cancellation (ANC)</h3>
+    <p>
+        ANC helps reduce unwanted background noise like traffic or crowd sounds.
+        This improves focus, music clarity, and call quality.
+    </p>
+</div>
+
+<div class="section">
+    <h3>Sound Quality</h3>
+    <p>
+        Balanced sound with strong bass and clear vocals for music and calls.
+    </p>
+</div>
+
+<div class="section">
+    <h3>Jabra Sound+ App</h3>
+    <p>
+        The Sound+ app allows you to customize equalizer settings,
+        control ANC levels, and update firmware.
+    </p>
+
+    <!-- App Link -->
+    <a class="app-link" href="https://www.jabra.com/software-and-services/jabra-sound-plus-app" target="_blank">
+        Download Sound+ App
+    </a>
+</div>
+
+<div class="section">
+    <h3>Design</h3>
+    <p>
+        Compact and lightweight earbuds designed for long-lasting comfort.
+    </p>
+</div>
+
+</div>
+
+</body>
+</html>
